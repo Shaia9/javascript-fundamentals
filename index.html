@@ -3,29 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+
     <script>
-        console.log(23 + 97);
+        //Adds 7 to a prompt
+         var number = prompt("pick a number")
 
-        console.log(15 + 20 + 2 + 420 + 400 + 4);
+            function add7(NewNumber){
+                NewNumber = 7 + parseInt(number);
+                return (NewNumber);
+            }
 
-        console.log((4 + 6 + 9) / 77);
-        
-        let a = 10;
-        console.log(a);
-        9 * a;
-        let b = 7 * a;
-        console.log(b);
+            console.log(add7(number))
 
-        var max = 57;
-        var actual = max - 13;
-        var percentage = actual / max;
-        console.log(percentage);
+        //Multiplies two prompt numbers together
+        var mult2 = prompt("Pick 1st number")
+        var mult1 = prompt("Pick another number")
+
+            function multiply(MulitplyNumber){2
+
+                MulitplyNumber = parseInt(mult1) * parseInt(mult2);
+                return(MulitplyNumber)
+            }
+
+            console.log(multiply(mult1*mult2))
+
+        // Write a function called capitalize that takes a string and returns only the first capital letter
+        let capitalText = prompt("Enter a word")
+        let firstletter = capitalText[0]
+
+            function capitalize(capText){
+                let newLetter = firstletter.toUpperCase();
+                console.log(capitalize(firstletter))
+            }
+
+
+            //Write a function called lastLetter that takes a string and returns the very last letter of that string:
     </script>
 </head>
 <body>
-    <h1>Hello World!</h1>
     
 </body>
 </html>
